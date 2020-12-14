@@ -1,0 +1,218 @@
+h1 {
+  width: 60%;
+  margin: 0 auto 0 auto;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 90px;
+  color: #222831;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: #222831;
+  font-weight: normal;
+}
+
+.h3 {
+  font-weight: normal;
+  font-size: 1rem;
+  color: #222831;
+}
+
+.span {
+  display: block;
+}
+
+.lazar {
+  font-weight: bold;
+}
+
+.glavni {
+  background-image: url("https://cutewallpaper.org/21/professional-website-background/professional-images-for-website-background-13-Ride-Now-Pte-Ltd.jpg");
+  background-size: cover;
+  position: relative;
+  padding-top: 100px;
+  background-color: #f1f6f9;
+}
+
+.profile {
+  text-align: center;
+}
+
+.biography {
+  background-image: url("https://www.estidia.eu/wp-content/uploads/2018/04/Savin-NY-Website-Background-Web.jpg");
+  background-size: cover;
+}
+
+body {
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2em;
+  margin: 0;
+}
+
+.donji-oblak {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.gornji-oblak {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  text-indent: inherit;
+}
+
+.cooking {
+  width: 25%;
+  float: left;
+  padding-right: 30px;
+}
+
+.languages {
+  width: 25%;
+  float: left;
+  padding-right: 30px;
+}
+
+.profilna {
+  width: 15%;
+  border-style: solid;
+  border-color: #f1f6f9;
+  border-radius: 100%;
+  border-width: 8px;
+}
+
+.profilna:hover {
+  border-color: #0e49b5;
+  border-width: thick;
+  border-style: groove;
+}
+.profile-text {
+  width: 60%;
+  text-align: center;
+  margin: auto;
+}
+
+p {
+  font-size: 28px;
+  color: #40514E;
+}
+
+.middle-container {}
+
+.bottom-container {
+  margin: 0 auto 0 auto;
+  background-color: #EAF6F6;
+}
+
+hr {
+  border-style: dotted;
+  border-width: 8px 0 0 0;
+  width: 4%;
+  border-color: #495464;
+}
+
+.kraj {
+  border-style: solid;
+  border-color: #0e49b5;
+  border-width: 5px;
+  width: 100%;
+}
+
+.pocetak {
+  border-style: ridge;
+  border-color: #cfd3ce;
+  width: 100%;
+  border-width: 8px;
+  border-right: 0;
+  border-left: 0;
+  margin: 0 auto 0 auto;
+  border-radius: 10%;
+  position: absolute;
+}
+
+.cv {
+  width: 5%;
+  background-color: inherit;
+}
+
+.zebancija {
+  border-style: 0;
+  visibility: hidden;
+}
+
+.ceve {
+  width: 5%;
+  background-color: inherit;
+}
+
+.btn {
+  background: #1565BF;
+  background-image: -webkit-linear-gradient(top, #1565BF, #1E62D0);
+  background-image: -moz-linear-gradient(top, #1565BF, #1E62D0);
+  background-image: -ms-linear-gradient(top, #1565BF, #1E62D0);
+  background-image: -o-linear-gradient(top, #1565BF, #1E62D0);
+  background-image: -webkit-gradient(to bottom, #1565BF, #1E62D0);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  color: #0D1014;
+  font-family: Verdana;
+  font-size: 17px;
+  font-weight: 400;
+  padding: 20px;
+  -webkit-box-shadow: 1px 1px 20px 0 #000000;
+  -moz-box-shadow: 1px 1px 20px 0 #000000;
+  box-shadow: 1px 1px 20px 0 #000000;
+  text-shadow: 1px 1px 20px #000000;
+  border: solid #050910 2px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.btn:hover {
+  border: solid #337FED 1px;
+  background: #1E62D0;
+  background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+  -webkit-border-radius: 13px;
+  -moz-border-radius: 13px;
+  border-radius: 13px;
+  text-decoration: none;
+}
+
+.lazar {
+  margin-bottom: 0;
+  margin-top: 8px;
+}
+
+.facebook {
+  width: 5%;
+  border-radius: 100%;
+  padding-top: 25px;
+}
+
+.twitter {
+  width: 5%;
+  border-radius: 100%;
+  padding-top: 25px;
+}
+
+@media (max-width:635px) {
+  .profile {
+    text-align: center;
+  }
+}
